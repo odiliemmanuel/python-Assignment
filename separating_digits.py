@@ -2,7 +2,7 @@ number = int(input("Input Five Digit Number"))
 
 numberOne = number //10000
 
-numberTwo = number // 10 % 10
+numberTwo = number // 10 // 10 // 10 % 10
 
 numberThree =  number //10 // 10 % 10
 
