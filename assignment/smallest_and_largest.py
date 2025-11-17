@@ -30,13 +30,13 @@ smallest_number = 0
 
 if(numberTwo < largest_num):
     smallest_number = numberTwo
-    print("The smallest number is" and smallest_number)
+    print("The smallest number is", smallest_number)
 
-elif(numberThree < largest_num):
+elif(numberThree < numberOne and numberThree < numberTwo):
     smallest_number = numberThree
-    print("The smallest number is" and smallest_number)
+    print("The smallest number is", smallest_number)
 
-elif(numberOne < largest_num):
+elif(numberOne < numberTwo and numberOne < numberThree):
     smallest_number = numberOne
-    print("The smallest number is" and smallest_number)
+    print("The smallest number is", smallest_number)
 
