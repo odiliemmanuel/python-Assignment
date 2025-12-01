@@ -1,9 +1,7 @@
 def even_positions_in_list(count):
-    numbers_in_list = [10, 20, 30, 40, 50, 60, 70, 80]
-    for number in numbers_in_list:
-        count = 0
-        if(number % 20 != 0):
-            count = number
-        return count
+    sum = 0
+    for elements in range(0, len(count), 2):
+        sum += count[elements]
+    return sum
 
 print(even_positions_in_list([10, 20, 30, 40, 50, 60, 70, 80]))
