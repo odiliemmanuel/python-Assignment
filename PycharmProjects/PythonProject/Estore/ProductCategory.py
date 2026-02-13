@@ -1,8 +1,8 @@
 from enum import Enum
 class ProductCategory(Enum):
-    product_category = (
+    category =(
     ELECTRONICS,
     GROCERIES,
     UTENSILS,
-    CLOTHING
-    )
+    CLOTHING)
+
